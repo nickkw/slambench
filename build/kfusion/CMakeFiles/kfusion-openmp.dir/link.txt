@@ -1,0 +1,2 @@
+/usr/bin/ar cr libkfusion-openmp.a  CMakeFiles/kfusion-openmp.dir/src/cpp/kernels.cpp.o
+/usr/bin/ranlib libkfusion-openmp.a

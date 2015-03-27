@@ -1,0 +1,1 @@
+/usr/bin/c++    -g -O3      CMakeFiles/kfusion-benchmark-cuda.dir/src/benchmark.cpp.o CMakeFiles/kfusion-benchmark-cuda.dir/src/PowerMonitor.cpp.o  -o kfusion-benchmark-cuda  -L/usr/local/lib -rdynamic libkfusion-cuda.a -lrt -lstdc++ -lpthread -lOpenNI2REAL /usr/local/cuda-6.5/lib64/libcudart.so -lrt -lstdc++ -lpthread -Wl,-rpath,/usr/local/lib:/usr/local/cuda-6.5/lib64 

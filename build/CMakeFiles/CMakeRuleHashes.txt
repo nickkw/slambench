@@ -1,0 +1,7 @@
+# Hashes of file build rules.
+1d07f72b45b376815116b65c9c852980 kfusion/CMakeFiles/kfusion-cuda.dir/src/cuda/./kfusion-cuda_generated_kernels.cu.o
+9bc3c0c439383349a681a799b494d85e kfusion/CMakeFiles/kfusion-qt-cpp_automoc
+c332396fb9ad394d00d8cf42114ffd08 kfusion/CMakeFiles/kfusion-qt-cuda_automoc
+8be24f35af4c7449f589bd37ed9b1ee6 kfusion/CMakeFiles/kfusion-qt-opencl_automoc
+7ab235b6efb594d15f5dfe2713b61629 kfusion/CMakeFiles/kfusion-qt-openmp_automoc
+edcb2d4ecf1d1bbd90293fa0f1b5ece8 kfusion/qrc_images.cpp

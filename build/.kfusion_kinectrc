@@ -1,0 +1,25 @@
+#This file is used to configure the visual appearance and behaviour of kfusion#It does NOT store values assotiated with specific models
+#Default directory for storing scenes
+data_dir "."
+
+#Configuration for each viewer <id> <enabled> [<field> <enabled>]
+viewer 0 "RGB image" 1
+viewer 1 "Depth image" 1
+viewer 2 "Track Model" 1
+viewer 3 "3D model" 1
+viewer 4 "Performance" 1 "frame" 0 "acquisition" 1 "preprocessing" 1 "tracking" 1 "integration" 1 "raycasting" 1 "rendering" 1 "computation" 1 "total" 1 "X" 0 "Y" 0 "Z" 0 "tracked" 0 "integrated" 0
+
+#Define which statistic from the performance window is used to calculate frame rate for status bar
+rate_statistic "computation"
+
+#enable_looping defines if we should loop at the end of the sequence: enable_looping <0 | 1>
+enable_looping 0
+
+#Stop at these frames: breakpoints [int] [int] [int].... 
+breakpoints
+
+#Conditional breakpoints only become active after conditional_start frames 
+conditional_start 5
+
+#Conditional breakpoints [ <variable> COND_BOOL <value 0|1|2>] 
+conditional_breakpoints "tracked" COND_BOOL 2

@@ -1,0 +1,2 @@
+/usr/bin/ar cr libkfusion-cuda.a  CMakeFiles/kfusion-cuda.dir/src/cuda/./kfusion-cuda_generated_kernels.cu.o
+/usr/bin/ranlib libkfusion-cuda.a

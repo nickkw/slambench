@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/nicholaskwan-wong/slambench/kfusion/thirdparty/lodepng.cpp
+lodepng.h
+/home/nicholaskwan-wong/slambench/kfusion/thirdparty/lodepng.h
+stdio.h
+-
+stdlib.h
+-
+fstream
+-
+
+/home/nicholaskwan-wong/slambench/kfusion/thirdparty/lodepng.h
+string.h
+-
+vector
+-
+string
+-
+lodepng.h
+/home/nicholaskwan-wong/slambench/kfusion/thirdparty/lodepng.h
+iostream
+-
+lodepng.h
+/home/nicholaskwan-wong/slambench/kfusion/thirdparty/lodepng.h
+

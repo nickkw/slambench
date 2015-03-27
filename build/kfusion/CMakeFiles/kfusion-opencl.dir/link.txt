@@ -1,0 +1,2 @@
+/usr/bin/ar cr libkfusion-opencl.a  CMakeFiles/kfusion-opencl.dir/src/opencl/kernels.cpp.o CMakeFiles/kfusion-opencl.dir/src/opencl/common_opencl.cpp.o
+/usr/bin/ranlib libkfusion-opencl.a

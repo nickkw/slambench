@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC  -g -O3     -shared -Wl,-soname,liboclwrapper.so -o liboclwrapper.so CMakeFiles/oclwrapper.dir/OCLWrapper.cpp.o 

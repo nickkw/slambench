@@ -1,0 +1,2 @@
+/usr/bin/ar cr libkfusion-cpp.a  CMakeFiles/kfusion-cpp.dir/src/cpp/kernels.cpp.o
+/usr/bin/ranlib libkfusion-cpp.a

@@ -1,0 +1,1 @@
+/usr/bin/c++    -g -O3      CMakeFiles/kfusion-benchmark-openmp.dir/src/benchmark.cpp.o CMakeFiles/kfusion-benchmark-openmp.dir/src/PowerMonitor.cpp.o  -o kfusion-benchmark-openmp  -L/usr/local/lib -rdynamic libkfusion-openmp.a -fopenmp -lrt -lstdc++ -lpthread -lOpenNI2REAL -Wl,-rpath,/usr/local/lib 

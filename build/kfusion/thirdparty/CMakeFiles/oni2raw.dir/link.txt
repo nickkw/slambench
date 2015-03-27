@@ -1,0 +1,1 @@
+/usr/bin/c++    -g -O3      CMakeFiles/oni2raw.dir/oni2raw.cpp.o  -o oni2raw  -L/usr/local/lib -rdynamic -lOpenNI2REAL -Wl,-rpath,/usr/local/lib 

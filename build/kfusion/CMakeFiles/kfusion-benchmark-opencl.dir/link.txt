@@ -1,0 +1,1 @@
+/usr/bin/c++    -g -O3      CMakeFiles/kfusion-benchmark-opencl.dir/src/benchmark.cpp.o CMakeFiles/kfusion-benchmark-opencl.dir/src/PowerMonitor.cpp.o  -o kfusion-benchmark-opencl  -L/usr/local/lib -rdynamic libkfusion-opencl.a -lrt -lstdc++ -lpthread -lOpenNI2REAL /usr/local/cuda/lib64/libOpenCL.so -Wl,-rpath,/usr/local/lib:/usr/local/cuda/lib64 
